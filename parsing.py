@@ -99,6 +99,12 @@ def parsing_input(docToPrint):
                 # print(noPuncAllLower)
                 # print(noDuplicateDictionary)
 
-    print(documentNumberDictionary[docToPrint])
-    return
+    # docValues = documentNumberDictionary[docToPrint]
+    # print(docValues)
+    totalTerms = documentNumberDictionary[docToPrint][0]
+    distinctTerms = documentNumberDictionary[docToPrint][1]
 
+    print("Total Terms: " + str(totalTerms))
+    print("Distinct Terms: " + str(distinctTerms))
+
+    return
