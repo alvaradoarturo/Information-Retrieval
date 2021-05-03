@@ -15,13 +15,12 @@ def main():
     print(args[0])
     print(args[1])
     if(args[0] == "--doc"):
-        print("doc")
+        print("Loading relevant document information:")
         parsing_input(args[1])
+    elif(len(args) > 2):
+        print("Loading relevant term information inside specified document")
     elif(args[0] == "--term"):
-        if(args[2] == "--doc"):
-            print("Term inside doc")
-        else:
-            print("Just term ")
+        print("Loading relevant term information")
     else:
         print("Error paring input")
 
