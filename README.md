@@ -7,7 +7,9 @@ Language Used: Python 3.9.4
 
 ### Instructions To Run Program
 `Git clone repository into local directory.`
+
 `If you're using a MAC, you can input commands by simply using "./parsing_input {query type} {doc/term name}".`
+
 `If you're using a Windows, you can input commands by simply using "python3 ./parsing_input {query type} {doc/term name}".`
 
 ### Brief Overview of Desing
