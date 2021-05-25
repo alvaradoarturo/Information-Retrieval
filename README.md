@@ -14,7 +14,7 @@ Language Used: Python 3.9.4
 ### Brief Overview of Design
 I have implemented a retrieval that outputs the cosine similarity between a document number(docno) and a query ID. My design is based on the 
 indexing that was done in the previous assignment. When given the query ID, I first search the provided query list for the specific ID. Once found, 
-I can then begin by extracting the specific query that is associated with the ID as opposed to the entire list. This query is then normalized
+I can then begin extracting the specific query that is associated with the ID as opposed to the entire list. This query is then normalized
 by removing punctuation, converting to lower case, and finally converting the sentence into a list which has each word as a element entry in the list.
 
 Given a specific docno, the same normaliztion techniques were applied. 
