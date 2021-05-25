@@ -23,4 +23,4 @@ Two new vectors were created with the size of the query after being normalized. 
 seeing whether or not, the specific document element was inside the query array. If a term was found in both, then a 1 was given for the binary weight. 
 The binary weights of the query vector were all set to one initially.
 
-After having the binary weights inside both vectors, I used an external library called `numpy` that helped me with the cosine similarity.
+After having the binary weights inside both vectors, I used an external library called `numpy` that helped me compute the cosine similarity between the two.
